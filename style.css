@@ -1,0 +1,56 @@
+body{
+    padding-top: 100px;
+    text-align: center;
+
+
+}
+#mealCategory{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+
+
+.menu{
+    border: 1px solid lightsteelblue;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    text-align:center;
+    width: 150px;
+    height: 200px;
+    background-color:rgb(233, 241, 247);
+}
+
+
+
+.menu img{
+    border-radius: 10px 0px 0px 0px;
+    width: 150px;
+    height: 110px;
+    text-align: center;
+    background-color:seagreen;    
+}
+
+#ingredient-info{
+    display: none;
+    
+}
+
+.ingredient{
+
+    text-align: center;
+}
+.ingredient img{
+    text-align: center;
+    width: 300px;
+
+}
+.ingredient li{
+    
+    padding-left: 500px;
+    text-align: left;
+
+}
